@@ -1,10 +1,10 @@
 import {Worker} from "./modules/worker.js";
 // Создание 5 работников
-const worker1 = new Worker('Иван', 'Иванов', '03-05-1990', 'Разработчик');
-const worker2 = new Worker('Мария', 'Сидорова', '06-11-1985', 'Тестировщик');
-const worker3 = new Worker('Олег', 'Петров', '10-01-2000', 'Дизайнер');
-const worker4 = new Worker('Анна', 'Кузнецова', '21-08-1998', 'Аналитик');
-const worker5 = new Worker('Дмитрий', 'Смирнов', '12-03-1995', 'Developer');
+const worker1 = new Worker('Иван', 'Иванов', '03.05.1990', 'Разработчик');
+const worker2 = new Worker('Мария', 'Сидорова', '06.11.1985', 'Тестировщик');
+const worker3 = new Worker('Олег', 'Петров', '10.01.2000', 'Дизайнер');
+const worker4 = new Worker('Анна', 'Кузнецова', '04.11.1998', 'Аналитик');
+const worker5 = new Worker('Дмитрий', 'Смирнов', '11.03.1995', 'Developer');
 // Меняем ставку для троих
 worker1.rate = 1500;
 worker2.rate = 2000;
